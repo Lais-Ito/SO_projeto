@@ -1,1 +1,1 @@
-# SO_projetoA
+# SO_projeto

@@ -6,9 +6,9 @@ Este repositório contém a implementação completa em C do Simulador Visual de
 
 ## Visão Geral do Projeto
 
-O simulador modela a execução de tarefas periódicas em um sistema operacional com múltiplos processadores/CPUs. Ele implementa algoritmos de escalonamento de tempo real (**Rate Monotonic - RM** e **Earliest Deadline First - EDF**), com uma fila global de prontos e **5 critérios estritos de desempate**.
+O simulador modela a execução de tarefas periódicas em um sistema operacional com múltiplos processadores/CPUs. Ele implementa algoritmos de escalonamento de tempo real (Rate Monotonic - RM e Earliest Deadline First - EDF), com uma fila global de prontos e 5 critérios estritos de desempate.
 
-O projeto conta com uma interface visual interativa no terminal, um **debugger passo-a-passo com navegação temporal Undo/Redo e edição ao vivo de tarefas**, além de exportação automática do **gráfico de Gantt em vetor SVG** ao final da simulação.
+O projeto conta com uma interface visual interativa no terminal, um debugger passo-a-passo com navegação temporal Undo/Redo e edição ao vivo de tarefas, além de exportação automática do gráfico de Gantt em vetor SVG ao final da simulação.
 
 ---
 

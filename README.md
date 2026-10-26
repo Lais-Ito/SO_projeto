@@ -1,6 +1,6 @@
 # Simulador Visual de Sistema Operacional Multitarefa (Projeto A)
 
-Este repositório contém a implementação completa, modularizada e em C do Simulador Visual de Sistema Operacional Multitarefa Preemptivo de Tempo Compartilhado (Projeto A).
+Este repositório contém a implementação completa em C do Simulador Visual de Sistema Operacional Multitarefa Preemptivo de Tempo Compartilhado (Projeto A).
 
 ---
 
@@ -8,7 +8,7 @@ Este repositório contém a implementação completa, modularizada e em C do Sim
 
 O simulador modela a execução de tarefas periódicas em um sistema operacional com múltiplos processadores/CPUs. Ele implementa algoritmos de escalonamento de tempo real (**Rate Monotonic - RM** e **Earliest Deadline First - EDF**), com uma fila global de prontos e **5 critérios estritos de desempate**.
 
-O projeto conta com uma interface visual interativa no terminal (com suporte a cores ANSI de 24 bits), um **debugger passo-a-passo com navegação temporal Undo/Redo e edição ao vivo de tarefas**, além de exportação automática do **gráfico de Gantt em vetor SVG** ao final da simulação.
+O projeto conta com uma interface visual interativa no terminal, um **debugger passo-a-passo com navegação temporal Undo/Redo e edição ao vivo de tarefas**, além de exportação automática do **gráfico de Gantt em vetor SVG** ao final da simulação.
 
 ---
 
@@ -36,7 +36,7 @@ O projeto conta com uma interface visual interativa no terminal (com suporte a c
 
 ---
 
-## Funcionamento dos Módulos (Guia de Aprendizado)
+## Funcionamento dos Módulos
 
 ### 1. Estrutura de Dados da Tarefa (TCB) — `include/types.h`
 Toda informação de uma tarefa é mantida em uma estrutura única chamada **Task Control Block (TCB)**:
